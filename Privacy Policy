@@ -1,0 +1,72 @@
+# IronOS Privacy Policy
+
+**Last updated: August 13, 2026**
+
+IronOS is a personal integration that connects an authorized WHOOP account to a locally operated OpenClaw assistant. This Privacy Policy explains what information IronOS accesses, why it is used, and how it is handled.
+
+## Information IronOS Accesses
+
+After the user grants permission through WHOOP's OAuth authorization process, IronOS may access the following information from the user's WHOOP account:
+
+- Basic profile information, including name and email address
+- Body measurements, including height, weight, and maximum heart rate
+- Recovery information, including recovery score, heart-rate variability, resting heart rate, blood-oxygen level, and skin temperature
+- Physiological cycle and strain information
+- Sleep records and sleep-stage metrics
+- Workout and activity information
+
+IronOS requests read-only access to this information. It does not use the WHOOP API to modify the user's WHOOP account or records.
+
+## How Information Is Used
+
+WHOOP information is used only to provide personal health, recovery, sleep, strain, and workout insights requested by the authorized user through their OpenClaw assistant.
+
+IronOS does not sell WHOOP information, use it for advertising, or share it with data brokers. IronOS does not use WHOOP information to make decisions about employment, insurance, credit, housing, or eligibility for services.
+
+## OAuth and Account Credentials
+
+IronOS connects to WHOOP using OAuth 2.0. It does not request, collect, or store the user's WHOOP password.
+
+The WHOOP client secret, access token, and refresh token are stored locally on the app owner's computer. Tokens are used only to authenticate requests to the official WHOOP API.
+
+## Local Processing and AI Providers
+
+IronOS operates through a locally managed OpenClaw installation. Information retrieved from WHOOP may be processed by OpenClaw and by the AI model provider configured by the app owner when answering the user's requests. Those services may process information according to their respective privacy policies and account settings.
+
+## Data Storage and Retention
+
+OAuth tokens are retained locally for as long as the integration remains connected. WHOOP API responses may appear in local OpenClaw conversations, logs, or other locally configured storage.
+
+The app owner controls this local environment and may delete stored tokens, conversations, logs, and other locally retained data at any time.
+
+## Data Sharing
+
+IronOS does not intentionally disclose WHOOP information to third parties except:
+
+- To the AI model provider selected and configured by the app owner when needed to answer a request
+- When required by law
+- When explicitly directed by the authorized user
+
+## Security
+
+IronOS uses OAuth 2.0 bearer tokens and communicates with the official WHOOP API over HTTPS. Reasonable measures are used to restrict local token-file access. No system can guarantee absolute security, and the app owner is responsible for securing the computer and OpenClaw installation on which IronOS runs.
+
+## Revoking Access and Deleting Data
+
+The user may revoke IronOS access through their WHOOP account's connected-app settings. The app owner may also disconnect IronOS by deleting its locally stored OAuth token file and configuration.
+
+Requests concerning locally retained information can be directed to the contact address below.
+
+## Children's Privacy
+
+IronOS is not intended for use by children under the age required to independently consent to data processing in their jurisdiction.
+
+## Changes to This Policy
+
+This policy may be updated if IronOS's functionality or information-handling practices change. The date at the top of this document identifies the latest revision.
+
+## Contact
+
+For privacy questions or deletion requests, contact:
+
+**[REPLACE WITH YOUR CONTACT EMAIL BEFORE PUBLISHING]**
